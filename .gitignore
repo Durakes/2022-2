@@ -105,3 +105,4 @@ _testmain.go
 #*.jpeg
 *.psd
 
+.vscode
