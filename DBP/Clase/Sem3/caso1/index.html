@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estaticos/css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form-signin" action="" id='valForm' method="post">
+            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /> <!--USELESS-->
+            <h2 class="form-signin-heading">Sign in</h2>
+            <label for="inputEmail" class="sr-only">Username</label>
+            <input type="text" class="form-control" placeholder="Username" 
+                    name="username" id="username" />
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" class="form-control" placeholder="Password" 
+                    name="password" id="password" />
+            <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="return Validar()"> 
+            <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Sign in
+            </button>
+            <div class="form-signin-heading">
+                <div class="text-muted" id='error'>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<script type="text/javascript" src="estaticos/js/validar.js"></script>
