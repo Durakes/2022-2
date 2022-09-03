@@ -35,7 +35,11 @@ public class POO2_S3_S1_1
 
         //cTextArea textArea = new cTextArea();
 
-        cPassword password = new cPassword();
+        //cPassword password = new cPassword();
+
+        //cRadioButton radioButton = new cRadioButton();
+
+        cCheckBox checkBox = new cCheckBox();
     }
     
 }
