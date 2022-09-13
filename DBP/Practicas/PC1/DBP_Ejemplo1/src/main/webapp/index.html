@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <LINK REL=StyleSheet HREF="~/css/style.css" TYPE="text/css" MEDIA=screen>
+        <link rel="stylesheet" href="estaticos/css/estilos.css">
+        <title>Ejercicio 1 - PC1</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>FORMULARIO DE REGISTRO</h1>
+            <form action="view/listar.jsp" method="post">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Salario</label>
+                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="Salario" value="" name="txtSalario" required>
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Antiguedad en la empresa en años</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Antiguedad en años" name="txtAntiguedad" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="form-control" name="btn" value="Procesar">
+                </div>
+                <div class="form-group">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

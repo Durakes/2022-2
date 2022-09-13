@@ -23,13 +23,13 @@ class Grafo
     void agregarArista(int i, int j)
     {
         adjMatriz[i][j] = true;
-        adjMatriz[j][i] = true; /* Si se desea representar un grafo dirigido se toma solo el orden ingresado por parametro */
+        //adjMatriz[j][i] = true; /* Si se desea representar un grafo dirigido se toma solo el orden ingresado por parametro */
     }
 
     void quitarArista(int i, int j)
     {
         adjMatriz[i][j] = false;
-        adjMatriz[j][i] = false; /* Si se desea representar un grafo dirigido se toma solo el orden ingresado por parametro */
+        //adjMatriz[j][i] = false; /* Si se desea representar un grafo dirigido se toma solo el orden ingresado por parametro */
     }
 
     bool verificarArista(int i, int j)
@@ -72,13 +72,9 @@ int main()
     grafo.agregarArista(1,3);
     grafo.agregarArista(2,2);
     grafo.agregarArista(1,4);
-    grafo.imprimir();
-
-
-    cout << "\n" << endl;
-
-    grafo.quitarArista(1,4);
 
     grafo.imprimir();
+
+    //cout << grafo.verificarArista(2,4) << endl;
     return 0;
 }

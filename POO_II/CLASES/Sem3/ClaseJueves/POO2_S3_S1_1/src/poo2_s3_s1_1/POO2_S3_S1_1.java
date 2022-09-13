@@ -39,7 +39,11 @@ public class POO2_S3_S1_1
 
         //cRadioButton radioButton = new cRadioButton();
 
-        cCheckBox checkBox = new cCheckBox();
+        //cCheckBox checkBox = new cCheckBox();
+
+        //cComboBox comboBox = new cComboBox();
+
+        cOptionPane optionPane = new cOptionPane();
     }
     
 }

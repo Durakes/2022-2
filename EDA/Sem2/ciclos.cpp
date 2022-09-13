@@ -61,6 +61,7 @@ bool Grafo::dfs(int v){
         
         if(!encontro_vecino)
         {
+            cout << "entro al if" << endl;
             pila_rec[pila.top()] = false;  // marca que salio de la pila
             pila.pop(); // saco de la pila al vertice
             
@@ -94,7 +95,7 @@ int main()
     //grafo.adicionarArista(0,1);
     grafo.adicionarArista(0,2);
     grafo.adicionarArista(1,3);
-    grafo.adicionarArista(3,0);
+    grafo.adicionarArista(3,1);
     
     if(grafo.existeCiclo())
         cout<<"En el grafo existe ciclo"; 

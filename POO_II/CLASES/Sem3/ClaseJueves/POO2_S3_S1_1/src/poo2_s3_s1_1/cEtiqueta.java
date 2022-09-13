@@ -8,7 +8,7 @@ public class cEtiqueta implements ActionListener
     JFrame frame;
     JTextField textField;
     JButton button;
-    JLabel label;
+    JLabel label;   
 
     public cEtiqueta()
     {

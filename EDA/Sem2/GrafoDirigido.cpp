@@ -15,6 +15,7 @@ class Grafo
         void adicionarArista(int v1, int v2); 
         int ObtenerGradoDeSalida(int v);
         bool existeVecino(int v1, int v2); // pregunta si estos dos vertices son vecinos
+        void imprimirNodos(int v);
 }; 
 
 Grafo::Grafo(int V)
@@ -40,6 +41,16 @@ bool Grafo::existeVecino(int v1, int v2)
     return false; 
 }
 
+void Grafo::imprimirNodos(int v)
+{
+    list<int>::iterator i; 
+        
+    for(i = adj[v].begin(); i != adj[v].end(); ++i)
+    {
+        cout << *i << endl;
+    }
+}
+
 int main()
 {
     
@@ -50,8 +61,10 @@ int main()
     grafo.adicionarArista(1,2);
     grafo.adicionarArista(3,1);
     grafo.adicionarArista(3,2);
+
+    grafo.imprimirNodos(0);
     
-    cout << "Grado de salida del vertice 1: " << grafo.ObtenerGradoDeSalida(1) << "\n"; 
+    /*cout << "Grado de salida del vertice 1: " << grafo.ObtenerGradoDeSalida(1) << "\n"; 
     cout << "Grado de salida del vertice 3: " << grafo.ObtenerGradoDeSalida(3) << "\n";
     
     // verificar si existe Vecino
@@ -59,6 +72,6 @@ int main()
     if(grafo.existeVecino(0,2))
         cout << "\n 2 es vecino de 0";
     else
-        cout << "\n 2 No es vecino de 0";
+        cout << "\n 2 No es vecino de 0";*/
     return 0;
 }
