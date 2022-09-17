@@ -49,24 +49,58 @@ class Grafo
                 cout<< adjMatrix[i][j] <<" ";
                 
             cout<<"\n";
-        }
-    
+        }   
     }
-    
-    
+
+    void utilityCamino(int inicio, int final)
+    {
+        int *camino = new int[numVertices];
+        int index = 0;
+        camino[0] = inicio;
+        grafoVerificaCamino(inicio, final, index, camino);
+    }
+
+    void grafoVerificaCamino(int inicio, int final, int& index, int camino[])
+    {
+        if(inicio != final)
+        {
+            for(int i = inicio + 1; i < numVertices; i++)
+            {
+                if(adjMatrix[inicio][i] == true)
+                {
+                    camino[index+1] = i;
+                    index++;
+                    grafoVerificaCamino(i, final, index, camino);
+                }
+            }
+        }else
+        {
+            for(int i = 0; i < index+1; i++)
+            {
+                if(i!= index)
+                    cout << camino[i] << " -> ";
+                else
+                    cout << camino[i];
+            }
+            cout << endl;
+        }
+        index--;
+    }
 }; 
 
 int main()
 {
-    Grafo g(4);
+    Grafo grafo(4);
     
-    g.addEdge(0,1);
-    g.addEdge(0,2);
-    g.addEdge(1,2);
-    g.addEdge(2,0);
-    g.addEdge(2,3);
+    grafo.addEdge(0,1);
+    grafo.addEdge(0,2);
+    grafo.addEdge(1,2);
+    grafo.addEdge(2,3);
     
-    g.imprime();
+    int inicio = 0;
+    int final = 3;
+    cout << "Los caminos entre " << inicio << " y " << final << " son: " << endl;
+    grafo.utilityCamino(0, 3);
 
     return 0;
 }
