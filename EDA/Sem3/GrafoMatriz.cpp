@@ -21,7 +21,6 @@ class Grafo
                 adjMatrix[i][j] = false;
         }
     }
-
     
     //adicionar aristas
     void addEdge(int i , int j)
@@ -29,15 +28,7 @@ class Grafo
         adjMatrix[i][j] = true;
         adjMatrix[j][i] = true; 
     }
-    
-    
-    //eliminar arista
-    void removeEdge (int i , int j)
-    {
-        adjMatrix[i][j] = false;
-        adjMatrix[j][i] = false; 
-    }
-    
+
     //imprime la matriz
     void imprime()
     {
