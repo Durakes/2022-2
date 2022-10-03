@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ClaseMartes.Models.Alumno>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<html>
+    <body>
+        <a asp-action="Create">Nuevo Alumno</a>
+        <h1>Listado de Alumnos registrados</h1>
+
+        <table class="table table-bordered">
+            <tr>
+                <td scope = "col">Codigo</td>
+                <td scope = "col">Nombres</td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td scope="col">@item.AluCodigo</td>
+                    <td scope="col">@item.AluNombres</td>
+                </tr>
+            }
+        </table>
+    </body>
+</html>
