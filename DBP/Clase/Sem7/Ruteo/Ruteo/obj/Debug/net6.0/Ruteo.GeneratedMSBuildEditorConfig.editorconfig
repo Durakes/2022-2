@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ruteo
+build_property.RootNamespace = Ruteo
+build_property.ProjectDir = D:\Arnold\Universidad_Codigo\2022-2\DBP\Clase\Sem7\Ruteo\Ruteo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Arnold\Universidad_Codigo\2022-2\DBP\Clase\Sem7\Ruteo\Ruteo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Operaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cT3BlcmFjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Operaciones2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cT3BlcmFjaW9uZXMyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Operaciones3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cT3BlcmFjaW9uZXMzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Operaciones4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cT3BlcmFjaW9uZXM0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Producto/Operaciones5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cT3BlcmFjaW9uZXM1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Arnold/Universidad_Codigo/2022-2/DBP/Clase/Sem7/Ruteo/Ruteo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-46taaxo2rv
