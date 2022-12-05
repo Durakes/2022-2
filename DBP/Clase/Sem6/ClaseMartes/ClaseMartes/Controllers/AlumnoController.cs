@@ -10,6 +10,7 @@ namespace ClaseMartes.Controllers
         {
             Context = context;
         }
+        [HttpGet]
         public IActionResult Index()
         {
             var list = Context.Alumnos;

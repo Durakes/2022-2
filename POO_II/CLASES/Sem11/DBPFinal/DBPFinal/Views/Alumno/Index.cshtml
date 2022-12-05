@@ -1,0 +1,32 @@
+﻿@model IEnumerable<DBPFinal.Models.Prueba>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<html>
+<body>
+    <!--permite ir a un metodo de action del controller-->
+
+    <h1>Listado de Operaciones</h1>
+
+    <table class="table table-bordered">
+        <tr>
+            <td scope="col">Nombre Alumno</td>
+            <td scope="col">Comprobante</td>
+            <td scope="col">Monto Obligacion</td>
+        </tr>
+        <tbody id="myTable">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td scope="col">@item.aluInfo.AluNombres</td>
+                    <td scope="col">@item.pagoInfo.Comprobante </td>
+                    <td scope="col">@item.oblInfo.OblMontoobligacion</td>
+                    <!--asp-route-id : consigo el parametro y lo paso al metodo de asp-action-->
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

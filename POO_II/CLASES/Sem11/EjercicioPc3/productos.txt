@@ -1,0 +1,13 @@
+2;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+4;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+5;Categoria2;Laptop;3.0;2.0;1;hyperX
+6;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+7;Categoria2;Laptop;3.0;2.0;1;hyperX
+8;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+9;Categoria2;Laptop;3.0;2.0;1;hyperX
+10;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+11;Categoria4;Audifonos;3.0;2.0;1;hyperX
+13;Categoria2;Laptop;3.0;2.0;1;hyperX
+14;Categoria2;Mouse;9.0;7.0;34;Moue 7 botones
+15;Categoria2;Tablet;20.0;6.0;90;Tablet gamer
+1;Software;Antivirus;80.0;40.0;5;Eset
